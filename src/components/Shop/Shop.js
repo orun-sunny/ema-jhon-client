@@ -30,6 +30,7 @@ const Shop = () => {
             const addedProduct = products.find (product => product.key ===key);
            storedCart.push(addedProduct)
         }
+        setCart(storedCart);
     }
       
     },[products])
