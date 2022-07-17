@@ -13,6 +13,10 @@ const Header = () => {
                 <a href="/orders">Orders</a>
                 <a href="/inventory">inventory</a>
             </nav>
+
+            <nav>
+                
+            </nav>
         </div>
     );
 };
