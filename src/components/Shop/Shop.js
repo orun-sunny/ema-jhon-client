@@ -6,6 +6,7 @@ import './Shop.css'
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart,setCart] = useState([]);
+
     useEffect(() => {
         console.log ('product api called')
         fetch('./products.JSON')
@@ -50,6 +51,11 @@ const Shop = () => {
 
 
     return (
+        <>
+
+        <div className="search-container">
+            <input type="text" />
+        </div>
 
 
         <div className='shop-container'>
@@ -75,6 +81,7 @@ const Shop = () => {
             </div>
 
         </div>
+        </>
     );
 };
 

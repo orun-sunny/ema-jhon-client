@@ -9,3 +9,14 @@
 
     margin-left: 50px;
 }
+
+.search-container{
+    background-color: rgba(0, 0, 0,0.85);
+    text-align: center;
+    line-height: 40px;
+
+}
+.search-container input{
+    width: 75%;
+}
+
