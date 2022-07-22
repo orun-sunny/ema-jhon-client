@@ -22,6 +22,7 @@ const Product = (props) => {
             <p><small>by:{seller}</small></p>
             <p>price:{price} </p>
             <p><small>only :{stock} available </small> </p> 
+            <p></p>
             <Rating
             initialRating={star}
               emptySymbol="far fa-star icon-color"
